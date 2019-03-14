@@ -15,8 +15,8 @@
 	<!-- Font Awesome Glyphicons -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
 
-	<!-- Chosen -->
-	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.css"> -->
+	<!-- Style sheet include -->
+	<link rel="stylesheet" type="text/css" href="./survey.css">
 </head>
 
 <body>
@@ -212,7 +212,7 @@
 
 			// If all required fields are filled
 			if (validateForm()) {
-				// Create an object for the user"s data
+				// Create an object for the user's data
 				let userData = {
 					name: $("#name").val().trim(),
 					photo: $("#photo").val().trim(),
