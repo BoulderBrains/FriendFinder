@@ -15,8 +15,29 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.css">
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.jquery.min.js"></script>
 
-	<!-- Style sheet include -->
-	<link rel="stylesheet" type="text/css" href="./survey.css">
+	<style>
+		.form-control:not(#name):not(#photo) {
+			width: 25%;
+		}
+	
+		#match-img {
+			display: table;
+			margin: auto;
+			width: 250px;
+			max-width: 300px;
+			margin: 0 auto;
+			display: inherit;
+		}
+	
+		.modal-header {
+			text-align: center;
+			display: block;
+		}
+	
+		h1 {
+			border-bottom: 2px solid black;
+		}
+	</style>
 </head>
 
 <body>
@@ -58,7 +79,7 @@
 
 
 		<h3><strong>Question 3</strong></h3>
-		<h4>You're appreciate wide lanes on a highway.</h4>
+		<h4>You appreciate wide lanes on a highway.</h4>
 		<select class="chosen-select" id="q3">
 			<option value=""></option>
 			<option value="1">1 (Strongly Disagree)</option>
@@ -128,7 +149,7 @@
 		</select>
 
 		<h3><strong>Question 9</strong></h3>
-		<h4>Before saying yes to a date you think really thing about if the person is spongeworthy.</h4>
+		<h4>Before saying yes to a date you think really hard about if the person is spongeworthy.</h4>
 		<select class="chosen-select" id="q9">
 			<option value=""></option>
 			<option value="1">1 (Strongly Disagree)</option>
@@ -222,7 +243,6 @@
 				});
 
 				$(".chosen-select").each(function () {
-
 					if ($(this).val() === "") {
 						isValid = false;
 					}
