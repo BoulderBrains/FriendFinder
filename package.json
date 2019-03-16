@@ -16,6 +16,9 @@
   "bugs": {
     "url": "https://github.com/BoulderBrains/FriendFinder/issues"
   },
+  "engines": {
+    "node": "5.3.0"
+  },
   "homepage": "https://github.com/BoulderBrains/FriendFinder#readme",
   "dependencies": {
     "express": "^4.16.4",
