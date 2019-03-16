@@ -1,28 +1,25 @@
 {
-  "name": "friend-finder",
-  "version": "1.0.0",
-  "description": "# Friend Finder - Node and Express Servers",
-  "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/BoulderBrains/FriendFinder.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/BoulderBrains/FriendFinder/issues"
-  },
-  "engines": {
-    "node": "5.3.0"
-  },
-  "homepage": "https://github.com/BoulderBrains/FriendFinder#readme",
-  "dependencies": {
-    "express": "^4.16.4",
-    "heroku": "^7.22.6",
-    "path": "^0.12.7"
-  }
+	"name": "friend-finder",
+	"version": "1.0.0",
+	"description": "# Friend Finder - Node and Express Servers",
+	"main": "server.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node server.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/BoulderBrains/FriendFinder.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/BoulderBrains/FriendFinder/issues"
+	},
+	"homepage": "https://github.com/BoulderBrains/FriendFinder#readme",
+	"dependencies": {
+		"express": "^4.16.4",
+		"heroku": "^7.22.6",
+		"path": "^0.12.7"
+	}
 }
